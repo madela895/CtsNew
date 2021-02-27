@@ -53,5 +53,11 @@ public class Zoo {
 			zookeeper.feed(a);
 		}
 	}
+	
+	public void mutareAnimale() {
+		for(Animal a: listaAnimale) {
+			a.merge();
+		}
+	}
     
 }
