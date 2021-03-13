@@ -55,5 +55,9 @@ public class Student extends Aplicant {
 		System.out.println(stringBuilder.toString());
 		
 }
+	public void add(Student student) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }

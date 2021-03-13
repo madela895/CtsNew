@@ -56,4 +56,8 @@ public class Elev extends Aplicant{
 		System.out.println(stringBuilder.toString());
 		
 }
+	public void add(Elev elev) {
+		// TODO Auto-generated method stub
+		
+	}
 }
