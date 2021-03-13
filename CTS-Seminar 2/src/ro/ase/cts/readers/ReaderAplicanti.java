@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Scanner;
 
 import ro.ase.cts.clase.Aplicant;
-import ro.ase.cts.clase.Elev;
 
 public abstract class ReaderAplicanti {
 	protected String fileName;
@@ -33,8 +32,6 @@ public abstract class ReaderAplicanti {
 		aplicant.setDenumireProiect(vect, nr);
 		
     }
-
-	protected abstract void citesteAplicant(Scanner input2, Elev elev);
     
     
 }
