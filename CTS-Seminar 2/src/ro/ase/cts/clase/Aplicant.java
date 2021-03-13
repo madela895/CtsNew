@@ -7,6 +7,7 @@ public abstract class Aplicant{
 	protected int punctaj;
 	protected int nr_proiecte;
 	protected String[] denumireProiect;
+	private static int sumaFinantata=30;
 	
 	
 	public String getNume() {
@@ -62,5 +63,12 @@ public abstract class Aplicant{
 	public void setNr_proiecte(int nr_proiecte) {
 		this.nr_proiecte = nr_proiecte;
 	}
-
+	
+	public void afisareSumaFinantata() {
+		
+		
 }
+	
+	
+	
+	}

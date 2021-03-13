@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class Student extends Aplicant {
 	protected String facultate;
 	protected int an_studii;
+	private static int sumaFinantata=20;
 	
 	
 	public String getFacultate() {
@@ -42,5 +43,17 @@ public class Student extends Aplicant {
 		System.out.println("Studentul "+getNume()+" "+getPrenume()+" primeste"+s+" Euro/zi in proiect.");
 		return s;
 	}
+	
+	public void afisareSumaFinantata() {
+		StringBuilder stringBuilder=new StringBuilder();
+		stringBuilder.append("Studentul ");
+		stringBuilder.append(getNume());
+		stringBuilder.append(" ");
+		stringBuilder.append( getPrenume());
+		stringBuilder.append(" primeste ");
+		stringBuilder.append( this.sumaFinantata);
+		System.out.println(stringBuilder.toString());
+		
+}
 	
 }

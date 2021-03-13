@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class Elev extends Aplicant{
 	private int clasa;
 	private String tutore;
+	private static int sumaFinantata=30;
 	
 	public int getClasa() {
 		return clasa;
@@ -44,4 +45,15 @@ public class Elev extends Aplicant{
 		return s;
 	}
 	
+	public void afisareSumaFinantata() {
+		StringBuilder stringBuilder=new StringBuilder();
+		stringBuilder.append("Elevul ");
+		stringBuilder.append(getNume());
+		stringBuilder.append(" ");
+		stringBuilder.append( getPrenume());
+		stringBuilder.append(" primeste ");
+		stringBuilder.append( this.sumaFinantata);
+		System.out.println(stringBuilder.toString());
+		
+}
 }
